@@ -1,20 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
-import DropConfig from "../components/DropConfig";
-import "../styles/global.css";
+import Banner from "../components/Banner";
+import AirDrop from "../components/AirDrop";
 ---
 
-<Layout title="Welcome to Astro.">
-  <div class="drop-container">
-    <DropConfig />
-  </div>
+<Layout title="SocialDrop">
+  <Banner />
+  <AirDrop client:only="react" />
 </Layout>
 
 <style>
-  .drop-container {
-    display: flex;
-    justify-content: center;
+  @font-face {
+    font-family: "Inter";
+    src: url("/fonts/Inter.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
   }
   main {
     margin: auto;

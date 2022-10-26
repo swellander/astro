@@ -11,14 +11,29 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^1.2.1",
-    "@astrojs/tailwind": "^2.1.1",
-    "@astrojs/vercel": "^2.3.1",
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
-    "astro": "^1.5.2",
+    "@astrojs/image": "^0.7.0",
+    "@nanostores/react": "^0.4.0",
+    "@rainbow-me/rainbowkit": "^0.5.1",
+    "@supabase/supabase-js": "^1.35.6",
+    "astro": "^1.1.5",
+    "ethers": "^5.7.0",
+    "postcss": "^8.4.16",
+    "wagmi": "^0.6.4"
+  },
+  "devDependencies": {
+    "@astrojs/partytown": "^1.0.0",
+    "@astrojs/react": "^1.1.1",
+    "@astrojs/tailwind": "^1.0.0",
+    "@astrojs/vercel": "^1.0.2",
+    "@types/react": "^18.0.20",
+    "daisyui": "^2.25.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.5.4",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "tailwindcss": "^3.2.0"
-  }
+    "react-dom": "^18.0.0"
+  },
+  "peerDependencies": {
+    "autoprefixer": "^10.4.8"
+  },
+  "packageManager": "yarn@3.2.4"
 }

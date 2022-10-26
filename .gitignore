@@ -1,6 +1,11 @@
 # build output
 dist/
 .output/
+.yarn/cache/
+
+# misc.
+.temp*
+.vercel/*
 
 # dependencies
 node_modules/

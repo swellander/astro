@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
-import styles from "./styles";
+import logo from "../assets/logo.svg";
 
 function Header() {
   return (
-    <h1 className={styles.h1}>
+    <h1 className="p-10">
       <img src={logo} />
     </h1>
   );
