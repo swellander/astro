@@ -2,11 +2,12 @@
 import Layout from "../layouts/Layout.astro";
 import Test from "../components/Test";
 import Banner from "../components/Banner";
+import AirDrop from "../components/AirDrop";
 ---
 
 <Layout title="Welcome to Astro.">
   <Banner />
-  <Test client:only="react" />
+  <AirDrop client:only="react" />
 </Layout>
 
 <style>
