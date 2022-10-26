@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TokenInput from "../TokenInput";
+// import TokenInput from "../TokenInput";
 
 interface Props {
   isBlurred: boolean;
@@ -56,7 +56,7 @@ function DropType({ isBlurred }: Props) {
             </h2>
           </div>
         </div>
-        <TokenInput />
+        {/* <TokenInput /> */}
       </div>
     </>
   );
