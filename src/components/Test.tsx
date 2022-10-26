@@ -1,7 +1,5 @@
-import { useState } from "react";
-
 function Test() {
-  return <h1>SocialDrop</h1>;
+  return <h1 className="text-3xl">Airdrop</h1>;
 }
 
 export default Test;
