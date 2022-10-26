@@ -2,10 +2,13 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Test from "../components/Test";
+import AirDrop from "../components/AirDrop";
+import Banner from "../components/Banner";
 ---
 
 <Layout title="Welcome to Astro.">
-  <Test client:only="react" />
+  <Banner />
+  <AirDrop client:only="react" />
 </Layout>
 
 <style>
